@@ -63,7 +63,7 @@ html,body{
     padding: 20px;
     width: 100%;
     height: calc(100% - 100px);
-    background-color: black;
+    background-color: rgb(160, 207, 197);
 }
 
 .bubble{
@@ -82,3 +82,21 @@ html,body{
     cursor: pointer;
     background-color: rgb(107, 184, 136);
 }
+
+.over{
+   
+    padding: 0;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    color: red;
+}
+#highscore{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: rgb(112, 49, 212);
+}
+
+
