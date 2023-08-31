@@ -84,18 +84,21 @@ html,body{
 }
 
 .over{
-   
+   position: absolute;
     padding: 0;
-    margin: 0;
-    display: grid;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 5%;
     justify-items: center;
     text-align: center;
     color: rgb(201, 51, 51);
 }
 #highscore{
-    display: grid;
+    position: absolute;
     justify-content: center;
     text-align: center;
+    margin-left: 28%;
+    margin-top: 15%;
     color: rgb(18, 119, 57);
 }
 
