@@ -22,47 +22,47 @@ html,body{
     overflow: hidden;
     width: 80%;
     height: 80%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: #fff;
 }
 
 #ptop{
-    padding: 0px 30%;
+    padding: 0rem 30%;
     justify-content: space-between;
     display: flex;
     align-items:center; 
     color: #fff;
     width: 100%;
-    height: 100px;
+    height: 6.875rem;
     background-color: rgb(72, 104, 72);
 }
 
 .elem{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .elem h2{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .box{
     color: rgb(18, 119, 57);
     font-weight: 600;
-    font-size: 25px;
-    padding: 10px 20px;
+    font-size: 1.563rem;
+    padding: 0.625rem 1.25rem;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 #pbtm{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 20px;
+    gap: 0.625rem;
+    padding: 1.25rem;
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100% - 6.25rem);
     background-color: rgb(160, 207, 197);
 }
 
@@ -70,8 +70,8 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     background-color: rgb(72, 104, 72);
     color: #fff;
     border-radius: 50%;
