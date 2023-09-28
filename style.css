@@ -39,6 +39,7 @@ html,body{
 
 .elem{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1.25rem;
 }
@@ -64,6 +65,7 @@ html,body{
     width: 100%;
     height: calc(100% - 6.25rem);
     background-color: rgb(160, 207, 197);
+    position: relative;
 }
 
 .bubble{
@@ -95,6 +97,7 @@ html,body{
 }
 #highscore{
     position: absolute;
+    top: 15%;
     justify-content: center;
     text-align: center;
     margin-left: 28%;
