@@ -1,4 +1,4 @@
-var timer = 60;
+var timer = 10;
 var score= 0;
 var rn=0;
 //event bubbling---when clickedon something event will raise, 
@@ -35,6 +35,7 @@ function runTimer(){
         clearInterval(timerint);
         document.querySelector("#pbtm").innerHTML=`<h1 class="over">GAME OVER</h1><br>
         <br><h1 id="highscore">YOUR SCORE = ${score}</h1>`
+        confetti.start();
     }
     }, 1000)
 }
